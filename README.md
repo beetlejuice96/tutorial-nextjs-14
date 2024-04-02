@@ -29,6 +29,12 @@ Streaming: Server Components allow you to split the rendering work into chunks a
 
 - if we want user to interact with our component and in order to make the component the client component, we need to use the use client directive.
 
+### Routes
+
+- [sign-in] : we are making reference to the fact that we are expecting a param on that path.
+- [...sign-in]: we are expecting all the params sent to us on that path. example assuming our fixed path is `auth` , our path would look like this : `/auth/falopa/falopita/falopon` . everything after auth, will be taken as params and concatenated into an array like `{ 'sign-in': [ 'falopa', 'falopita', 'falopon' ] }`.
+- [[[...sign-in]]]: we are saying that the `page.tsx` file inside the `[[[...sign-in]]]` folder (if there is no `page.tsx` in its parent) will be the default path to the parent folder of `[[[...sign-in]]]` .
+
 ## Getting Started
 
 First, run the development server:
