@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+This is a playground project to practice Next.js 14 and new functionalities.
+
+In this readme, I write some issues that interest me.
+
 # Notes
 
 ## Server Components VS Client Components
