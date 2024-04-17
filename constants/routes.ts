@@ -8,7 +8,7 @@ export const ROUTES: Route[] = [
   { path: "/about", name: "About" },
   { path: "/client", name: "Client" },
   { path: "/drinks", name: "Drinks" },
-  { path: "/prisma-example", name: "Prisma-example" },
+  { path: "/prisma-example", name: "Prisma" },
   { path: "/query", name: "Query" },
   { path: "/tasks", name: "Tasks" },
 ];
