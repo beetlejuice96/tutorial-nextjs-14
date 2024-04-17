@@ -51,6 +51,11 @@ const EditTaskForm: FC<Props> = ({ task }) => {
       </button>
       <dialog id={`edit-task-${id}`} className="modal">
         <div className="modal-box">
+          <form method="dialog">
+            <button className="absolute top-5 right-5 btn btn-circle btn-sm bg-white">
+              x
+            </button>
+          </form>
           <h3 className="font-bold text-lg">Edit Task</h3>
           <div className="modal-action justify-center ">
             <form
@@ -74,7 +79,6 @@ const EditTaskForm: FC<Props> = ({ task }) => {
                   </div>
                 )}
               </label>
-
               <SubmitBtn />
             </form>
           </div>
