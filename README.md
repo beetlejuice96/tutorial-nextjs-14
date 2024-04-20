@@ -39,6 +39,16 @@ Streaming: Server Components allow you to split the rendering work into chunks a
 - [...sign-in]: we are expecting all the params sent to us on that path. example assuming our fixed path is `auth` , our path would look like this : `/auth/falopa/falopita/falopon` . everything after auth, will be taken as params and concatenated into an array like `{ 'sign-in': [ 'falopa', 'falopita', 'falopon' ] }`.
 - [[[...sign-in]]]: we are saying that the `page.tsx` file inside the `[[[...sign-in]]]` folder (if there is no `page.tsx` in its parent) will be the default path to the parent folder of `[[[...sign-in]]]` .
 
+### Server actions
+
+- server-side functions that we can call on our components.
+- este tutorial propone hacer server functions para evitar alguna conexion a cualquier tipo de backend. En la mayoria de los casos no estoy muy de acuerdo con eso. usaria este camino solo en alguna pagina muy sencilla.
+- This tutorial proposes make server funcitons to avoid something conection to any backend type. In most of the cases i dont quite agree. I would use this way only on a very simple page.
+
+#### on the other hand
+
+I started using server actions in differents projects and...
+
 ## Getting Started
 
 First, run the development server:
